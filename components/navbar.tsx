@@ -9,6 +9,7 @@ import clsx from "clsx";
 
 import {ThemeSwitch} from "@/components/theme-switch";
 import {GithubIcon, Logo,} from "@/components/icons";
+import {Button} from "@nextui-org/button";
 
 export const Navbar = () => {
     return (
@@ -43,7 +44,9 @@ export const Navbar = () => {
                 justify="end"
             >
                 <NavbarItem className="hidden sm:flex gap-2">
-                    <Link isExternal href={siteConfig.links.source} aria-label="Github">
+                    <Button href={siteConfig.links.issues} target={"_blank"} as={Link} size={"sm"} color="secondary"
+                            variant="shadow" showAnchorIcon>Open Issue</Button>
+                    <Link isExternal href={siteConfig.links.github} aria-label="Github">
                         <GithubIcon className="text-default-500"/>
                     </Link>
                     <ThemeSwitch/>

@@ -21,8 +21,8 @@ export default function Home() {
             <div className="flex gap-3">
                 <Snippet hideSymbol hideCopyButton variant="flat">
 					<span>
-						Get started by viewing our <a href={"/access"}><Code
-                        color="primary">Getting Access</Code></a> guide
+						Get started by viewing our <Link href={"/access"}><Code
+                        color="primary">Getting Access</Code></Link> guide
 					</span>
                 </Snippet>
             </div>

@@ -1,10 +1,11 @@
 import {title} from "@/components/primitives";
+import {Divider} from "@nextui-org/react";
 
 export default function WelcomePage() {
     return (
         <div>
             <h1 className={title({size: "sm"})}>Welcome to the Department of Veterans Affairs</h1>
-            <br/><br/>
+            <Divider className="my-4"/>
             <div className={`text-left`}>
                 Welcome!
                 <br/><br/>

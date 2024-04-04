@@ -10,11 +10,9 @@ export function Footer() {
                 title="GitHub Expert Services"
             >
                 <span className="text-default-600">
-                    Developed by&nbsp;
+                    Created by&nbsp;
                     <span className={"text-violet-500"}>GitHub Expert Services&nbsp;</span>
-                    and powered by
                 </span>
-                <p className="text-primary">NextUI</p>
             </Link>
         </footer>
     )

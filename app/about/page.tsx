@@ -1,11 +1,12 @@
 import React from "react";
 import {title} from "@/components/primitives";
-import {User} from "@nextui-org/react";
+import {Divider, Link, User} from "@nextui-org/react";
 
 export default function AboutPage() {
     return (
         <div>
             <h1 className={title({size: "sm"})}>About GitHub</h1>
+            <Divider className="my-4"/>
             <div className="flex pt-4 text-left">
                 Github is a web-based graphical user interface for Git, a command-line tool, which adds many of its own
                 features. GitHub also provides access control and collaboration features, such as bug and feature
@@ -22,7 +23,7 @@ export default function AboutPage() {
             </div>
             <div className="pt-4">
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/speakmin" target="_blank">
+                    <Link href="https://github.com/speakmin" target="_blank">
                         <User
                             name="Christian Speakman"
                             description="Senior DevOps Engineer"
@@ -31,10 +32,10 @@ export default function AboutPage() {
                                 alt: "Christian Speakman"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/arilivigni" target="_blank">
+                    <Link href="https://github.com/arilivigni" target="_blank">
                         <User
                             name="Ari LiVigni"
                             description="Senior DevOps Engineer"
@@ -43,10 +44,10 @@ export default function AboutPage() {
                                 alt: "Ari LiVigni"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/data-douser" target="_blank">
+                    <Link href="https://github.com/data-douser" target="_blank">
                         <User
                             name="Nathan Randall"
                             description="Senior Security Architect"
@@ -55,10 +56,10 @@ export default function AboutPage() {
                                 alt: "Nathan Randall"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/pwideman" target="_blank">
+                    <Link href="https://github.com/pwideman" target="_blank">
                         <User
                             name="Paul Wideman"
                             description="Senior Solutions Architect"
@@ -67,10 +68,10 @@ export default function AboutPage() {
                                 alt: "Paul Wideman"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/lindluni" target="_blank">
+                    <Link href="https://github.com/lindluni" target="_blank">
                         <User
                             name="Brett Logan"
                             description="Senior Solutions Architect"
@@ -79,10 +80,10 @@ export default function AboutPage() {
                                 alt: "Brett Logan"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/garnertb" target="_blank">
+                    <Link href="https://github.com/garnertb" target="_blank">
                         <User
                             name="Tyler Garner"
                             description="Senior Program Manager"
@@ -91,10 +92,10 @@ export default function AboutPage() {
                                 alt: "Tyler Garner"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/akinsd1" target="_blank">
+                    <Link href="https://github.com/akinsd1" target="_blank">
                         <User
                             name="Delia Akins"
                             description="Principal Project Manager"
@@ -103,10 +104,10 @@ export default function AboutPage() {
                                 alt: "Delia Akins"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex pt-6 items-center justify-center">
-                    <a href="https://github.com/minh-truong" target="_blank">
+                    <Link href="https://github.com/minh-truong" target="_blank">
                         <User
                             name="Minh Truong"
                             description="Senior Support Engineer"
@@ -115,7 +116,7 @@ export default function AboutPage() {
                                 alt: "Minh Truong"
                             }}
                         />
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

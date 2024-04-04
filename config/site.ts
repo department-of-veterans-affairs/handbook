@@ -28,6 +28,7 @@ export const siteConfig = {
     links: {
         github: "https://github.com/department-of-veterans-affairs",
         source: "https://github.com/department-of-veterans-affairs/handbook",
+        issues: "https://github.com/department-of-veterans-affairs/handbook/issues/new",
         support: "https://github.com/department-of-veterans-affairs/github-user-requests/issues/new/choose",
     },
 };
