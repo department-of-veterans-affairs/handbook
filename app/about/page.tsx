@@ -1,6 +1,6 @@
 import React from "react";
 import {title} from "@/components/primitives";
-import {Avatar} from "@nextui-org/react";
+import {User} from "@nextui-org/react";
 
 export default function AboutPage() {
     return (
@@ -18,121 +18,104 @@ export default function AboutPage() {
                 GitHub or implementing more advanced features.
             </div>
             <div className="flex pt-4 text-left">
-                You can learn more about your GitHub admin team below.
+                Learn more about your GitHub admin team below.
             </div>
             <div className="pt-4">
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/speakmin" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/14301194?v=4"
-                            alt={"Christian Speakman"}
-
+                        <User
+                            name="Christian Speakman"
+                            description="Senior DevOps Engineer"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/14301194?v=4",
+                                alt: "Christian Speakman"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Christian Speakman
-                    <br/>
-                    Senior DevOps Engineer
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/arilivigni" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/4140343?v=4"
-                            alt={"Ari LiVigni"}
+                        <User
+                            name="Ari LiVigni"
+                            description="Senior DevOps Engineer"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/4140343?v=4",
+                                alt: "Ari LiVigni"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Ari LiVigni
-                    <br/>
-                    Senior DevOps Engineer
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/data-douser" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/70299490?v=4"
-                            alt={"Nathan Randall"}
+                        <User
+                            name="Nathan Randall"
+                            description="Senior Security Architect"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/70299490?v=4",
+                                alt: "Nathan Randall"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Nathan Randall
-                    <br/>
-                    Senior Security Architect
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/pwideman" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/188576?v=4"
-                            alt={"Paul Wideman"}
+                        <User
+                            name="Paul Wideman"
+                            description="Senior Solutions Architect"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/188576?v=4",
+                                alt: "Paul Wideman"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Paul Wideman
-                    <br/>
-                    Senior Solutions Architect
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/lindluni" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/9400927?v=4"
-                            alt={"Brett Logan"}
+                        <User
+                            name="Brett Logan"
+                            description="Senior Solutions Architect"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/9400927?v=4",
+                                alt: "Brett Logan"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Brett Logan
-                    <br/>
-                    Senior Solutions Architect
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/garnertb" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/1141646?v=4"
-                            alt={"Tyler Garner"}
+                        <User
+                            name="Tyler Garner"
+                            description="Senior Program Manager"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/1141646?v=4",
+                                alt: "Tyler Garner"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Tyler Garner
-                    <br/>
-                    Senior Program Manager
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/akinsd1" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/58187963?v=4"
-                            alt={"Delia Akins"}
+                        <User
+                            name="Delia Akins"
+                            description="Principal Project Manager"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/58187963?v=4",
+                                alt: "Delia Akins"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Delia Akins
-                    <br/>
-                    Principal Project Manager
                 </div>
                 <div className="flex pt-6 items-center justify-center">
                     <a href="https://github.com/minh-truong" target="_blank">
-                        <Avatar
-                            size="lg"
-                            src="https://avatars.githubusercontent.com/u/114602406?v=4"
-                            alt={"Minh Truong"}
+                        <User
+                            name="Minh Truong"
+                            description="Senior Support Engineer"
+                            avatarProps={{
+                                src: "https://avatars.githubusercontent.com/u/114602406?v=4",
+                                alt: "Minh Truong"
+                            }}
                         />
                     </a>
-                </div>
-                <div className="pt-1">
-                    Minh Truong
-                    <br/>
-                    Support Engineer
                 </div>
             </div>
         </div>
