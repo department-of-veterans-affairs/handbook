@@ -110,7 +110,7 @@ export default function AboutPage() {
                     <Link href="https://github.com/minh-truong" target="_blank">
                         <User
                             name="Minh Truong"
-                            description="Senior Support Engineer"
+                            description="GitHub Support Engineer"
                             avatarProps={{
                                 src: "https://avatars.githubusercontent.com/u/114602406?v=4",
                                 alt: "Minh Truong"
