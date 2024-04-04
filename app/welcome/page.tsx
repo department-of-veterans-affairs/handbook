@@ -3,7 +3,7 @@ import {title} from "@/components/primitives";
 export default function WelcomePage() {
     return (
         <div>
-            <h1 className={title()}>Welcome to the Department of Veterans Affairs</h1>
+            <h1 className={title({size: "sm"})}>Welcome to the Department of Veterans Affairs</h1>
             <br/><br/>
             <div className={`text-left`}>
                 Welcome!

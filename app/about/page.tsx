@@ -5,7 +5,7 @@ import {User} from "@nextui-org/react";
 export default function AboutPage() {
     return (
         <div>
-            <h1 className={title()}>About GitHub</h1>
+            <h1 className={title({size: "sm"})}>About GitHub</h1>
             <div className="flex pt-4 text-left">
                 Github is a web-based graphical user interface for Git, a command-line tool, which adds many of its own
                 features. GitHub also provides access control and collaboration features, such as bug and feature
