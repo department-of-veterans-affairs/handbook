@@ -8,7 +8,7 @@ import NextLink from "next/link";
 import clsx from "clsx";
 
 import {ThemeSwitch} from "@/components/theme-switch";
-import {GithubIcon, Logo,} from "@/components/icons";
+import {GithubIcon,} from "@/components/icons";
 
 export const Navbar = () => {
     return (
@@ -16,7 +16,7 @@ export const Navbar = () => {
             <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
                 <NavbarBrand as="li" className="gap-3 max-w-fit">
                     <NextLink className="flex justify-start items-center gap-1" href="/">
-                        <Logo/>
+                        <GithubIcon/>
                         <p className="font-bold text-inherit">VA GitHub Handbook</p>
                     </NextLink>
                 </NavbarBrand>
