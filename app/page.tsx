@@ -26,7 +26,7 @@ export default function Home() {
 					</span>
                 </Snippet>
             </div>
-            <div className="flex gap-3 mt-8">
+            <div className="flex gap-3 mt-3">
                 <Link
                     isExternal
                     className={buttonStyles({variant: "bordered", radius: "full"})}
