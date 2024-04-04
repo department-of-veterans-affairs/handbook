@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+console.log(process.env)
 const nextConfig = {
   /**
    * Enable static exports for the App Router.
@@ -12,8 +13,8 @@ const nextConfig = {
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: process.env.JEKYLL_ENV === "production" ?  "/handbook" : undefined,
-  assetPrefix: process.env.JEKYLL_ENV === "production" ?  "/handbook/" : undefined,
+  basePath: process.env.NODE_ENV === 'development' ? undefined : "/handbook",
+  assetPrefix: process.env.NODE_ENV === 'development' ? undefined : "/handbook/",
 
   /**
    * Disable server-based image optimization. Next.js does not support
