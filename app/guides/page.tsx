@@ -7,7 +7,7 @@ import {title} from "@/components/primitives";
 export default function GuidesPage() {
     return (
         <div>
-            <h1 className={title()}>Helpful guides for getting you started on GitHub</h1>
+            <h1 className={title({size: "sm"})}>Helpful guides for getting you started on GitHub</h1>
             <div className={"flex mt-4"}>
                 <Accordion>
                     <AccordionItem key="1" title="Onboarding" subtitle="Guides to help you get started with GitHub">
