@@ -11,7 +11,7 @@ export default function AccessPage() {
         <div>
             <h1 className={title({size: "sm"})}>Getting access to the GitHub organization</h1>
             <Divider className="my-4"/>
-            <div className={"mt-4 text-left"}>
+            <div className={"mt-4"}>
                 There are several steps that must be done to gain access to the <Link href={siteConfig.links.github}
                                                                                       target={"blank"}>Department
                 of Veterans Affairs</Link> organization

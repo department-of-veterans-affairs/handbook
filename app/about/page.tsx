@@ -19,10 +19,10 @@ export default function AboutPage() {
                 GitHub or implementing more advanced features.
             </div>
             <div className="flex pt-4 text-left">
-                Learn more about your GitHub admin team below.
+                Meet your GitHub admin team below.
             </div>
-            <div className="pt-4">
-                <div className="flex pt-6 items-center justify-center">
+            <div className="flex flex-wrap pt-4">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/speakmin" target="_blank">
                         <User
                             name="Christian Speakman"
@@ -34,7 +34,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/arilivigni" target="_blank">
                         <User
                             name="Ari LiVigni"
@@ -46,7 +46,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/data-douser" target="_blank">
                         <User
                             name="Nathan Randall"
@@ -58,7 +58,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/pwideman" target="_blank">
                         <User
                             name="Paul Wideman"
@@ -70,7 +70,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/lindluni" target="_blank">
                         <User
                             name="Brett Logan"
@@ -82,7 +82,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/garnertb" target="_blank">
                         <User
                             name="Tyler Garner"
@@ -94,7 +94,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/akinsd1" target="_blank">
                         <User
                             name="Delia Akins"
@@ -106,7 +106,7 @@ export default function AboutPage() {
                         />
                     </Link>
                 </div>
-                <div className="flex pt-6 items-center justify-center">
+                <div className="w-1/2 p-2">
                     <Link href="https://github.com/minh-truong" target="_blank">
                         <User
                             name="Minh Truong"
