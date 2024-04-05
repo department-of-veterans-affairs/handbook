@@ -1,32 +1,125 @@
 'use client';
 
-import {title} from "@/components/primitives";
-import {Accordion, AccordionItem, Divider} from "@nextui-org/react";
+import {Accordion, AccordionItem, Divider, Tab, Tabs} from "@nextui-org/react";
 import React from "react";
 
 export default function PoliciesPage() {
+    const variant = "splitted"
     return (
         <div>
-            <h1 className={title({size: "sm"})}>Policies related to the secure use of GitHub at the VA</h1>
-            <Divider className="my-4"/>
-            <div className={"flex mt-4"}>
-                <Accordion>
-                    <AccordionItem key="1" title="Access Policies"
-                                   subtitle="Policies related to accessing GitHub">
-                    </AccordionItem>
-                    <AccordionItem key="2" title="Usage Policies"
-                                   subtitle="Policies related to the fair and secure usage of GitHub">
-                    </AccordionItem>
-                    <AccordionItem key="3" title="Repository Archival Policies"
-                                   subtitle="Policies related to data retention process for GitHub">
-                    </AccordionItem>
-                    <AccordionItem key="4" title="Security Policies"
-                                   subtitle="Policies related to the use of security tools in GitHub">
-                    </AccordionItem>
-                    <AccordionItem key="5" title="Copilot Policies"
-                                   subtitle="Policies related to the use of Copilot AI tools on GitHub">
-                    </AccordionItem>
-                </Accordion>
+            <div className="flex w-full flex-col items-center justify-center">
+                <Tabs aria-label="Options">
+                    <Tab key="access" title="Access">
+                        Policies related to accessing GitHub
+                        <Divider className="my-4"/>
+                        <Accordion variant={variant}>
+                            <AccordionItem key="1" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="2" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="3" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="4" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                        </Accordion>
+                    </Tab>
+                    <Tab key="usage" title="Usage">
+                        Policies related to the fair and secure usage of GitHub
+                        <Divider className="my-4"/>
+                        <Accordion variant={variant}>
+                            <AccordionItem key="1" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="2" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="3" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="4" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                        </Accordion>
+                    </Tab>
+                    <Tab key="retention" title="Data Retention">
+                        Policies related to data retention process for GitHub
+                        <Divider className="my-4"/>
+                        <Accordion variant={variant}>
+                            <AccordionItem key="1" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="2" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="3" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="4" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                        </Accordion>
+                    </Tab>
+                    <Tab key="security" title="Security">
+                        Policies related to the use of security tools in GitHub
+                        <Divider className="my-4"/>
+                        <Accordion variant={variant}>
+                            <AccordionItem key="1" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="2" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="3" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="4" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                        </Accordion>
+                    </Tab>
+                    <Tab key="copilot" title="Copilot">
+                        Policies related to the use of Copilot AI tools on GitHub
+                        <Divider className="my-4"/>
+                        <Accordion variant={variant}>
+                            <AccordionItem key="1" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="2" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="3" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                            <AccordionItem key="4" title="">
+                                <div className={"text-left"}>
+                                </div>
+                            </AccordionItem>
+                        </Accordion>
+                    </Tab>
+                </Tabs>
             </div>
         </div>
     );

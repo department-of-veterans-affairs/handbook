@@ -17,7 +17,7 @@ export default function AccessPage() {
                 of Veterans Affairs</Link> organization
             </div>
             <div className={"flex mt-4 text-left"}>
-                <Accordion>
+                <Accordion variant={"splitted"}>
                     <AccordionItem key="1" title="Step One" subtitle="Create a GitHub.com Account">
                         <div>
                             If you already have a GitHub.com account, please verify you have done the following and
