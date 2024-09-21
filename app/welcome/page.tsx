@@ -1,10 +1,11 @@
 import {title} from "@/components/primitives";
 import {Divider} from "@nextui-org/react";
+import {siteConfig} from "@/config/site";
 
 export default function WelcomePage() {
     return (
         <div>
-            <h1 className={title({size: "sm"})}>Welcome to the Department of Veterans Affairs</h1>
+            <h1 className={title({size: "sm"})}>Welcome to the {siteConfig.customer.name}</h1>
             <Divider className="my-4"/>
             <div className={`text-left`}>
                 Welcome!
@@ -31,7 +32,7 @@ export default function WelcomePage() {
                 ideas and insights. So please let us know if you see any way we can improve.
                 <br/><br/>
                 Thank you again for bringing your talents to serve the public. We’re excited to have you as a member of
-                the VA team.
+                the {siteConfig.customer.shortname} team.
             </div>
         </div>
     );

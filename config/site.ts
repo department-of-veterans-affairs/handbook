@@ -25,6 +25,10 @@ export const siteConfig = {
             href: "/about",
         }
     ],
+    customer: {
+        shortname: "VA",
+        name: "Department of Veterans Affairs",
+},
     links: {
         github: "https://github.com/department-of-veterans-affairs",
         source: "https://github.com/department-of-veterans-affairs/handbook",

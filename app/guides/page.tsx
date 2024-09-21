@@ -13,7 +13,7 @@ export default function GuidesPage() {
                     <Divider className="my-4"/>
                     <Accordion variant={variant}>
                         <AccordionItem key="1"
-                                       title="Getting access to the Department of Veterans Affairs GitHub organization">
+                                       title="Getting access to the GitHub organization">
                             <div className={"text-left"}>
                             </div>
                         </AccordionItem>
@@ -21,7 +21,7 @@ export default function GuidesPage() {
                             <div className={"text-left"}>
                             </div>
                         </AccordionItem>
-                        <AccordionItem key="3" title="Verifying your VA.gov email address in your GitHub profile">
+                        <AccordionItem key="3" title="Verifying your email address in your GitHub profile">
                             <div className={"text-left"}>
                             </div>
                         </AccordionItem>
@@ -35,11 +35,11 @@ export default function GuidesPage() {
                     Guides for migrating your source code between GitHub instances
                     <Divider className="my-4"/>
                     <Accordion variant={variant}>
-                        <AccordionItem key="1" title="Migrating from VAEC GitHub to GHEC">
+                        <AccordionItem key="1" title="Migrating from GHES to GHEC">
                             <div className={"text-left"}>
                             </div>
                         </AccordionItem>
-                        <AccordionItem key="2" title="Migrating from VAEC GitHub to GHEC-EMU">
+                        <AccordionItem key="2" title="Migrating from GHES to GHEC-EMU">
                             <div className={"text-left"}>
                             </div>
                         </AccordionItem>

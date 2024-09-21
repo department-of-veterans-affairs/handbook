@@ -17,7 +17,7 @@ export const Navbar = () => {
                 <NavbarBrand as="li" className="gap-3 max-w-fit">
                     <NextLink className="flex justify-start items-center gap-1" href="/">
                         <GithubIcon/>
-                        <p className="font-bold text-inherit">VA GitHub Handbook</p>
+                        <p className="font-bold text-inherit">{siteConfig.customer.shortname} GitHub Handbook</p>
                     </NextLink>
                 </NavbarBrand>
                 <ul className="hidden lg:flex gap-4 justify-start ml-2">
